@@ -1,0 +1,168 @@
+{
+  "status": {
+    "code": 10000, 
+    "description": "Ok"
+  }, 
+  "outputs": [
+    {
+      "status": {
+        "code": 10000, 
+        "description": "Ok"
+      }, 
+      "created_at": "2018-06-27T19:58:41.674768564Z", 
+      "input": {
+        "data": {
+          "image": {
+            "url": "https://samples.clarifai.com/metro-north.jpg"
+          }
+        }, 
+        "id": "df99c16ca30a40d1958684ce6199655e"
+      }, 
+      "model": {
+        "display_name": "General", 
+        "name": "general-v1.3", 
+        "output_info": {
+          "type_ext": "concept", 
+          "message": "Show output_info with: GET /models/{model_id}/output_info", 
+          "type": "concept"
+        }, 
+        "created_at": "2016-03-09T17:11:39.608845Z", 
+        "app_id": "main", 
+        "model_version": {
+          "status": {
+            "code": 21100, 
+            "description": "Model trained successfully"
+          }, 
+          "created_at": "2016-07-13T01:19:12.147644Z", 
+          "id": "aa9ca48295b37401f8af92ad1af0d91d"
+        }, 
+        "id": "aaa03c23b3724a16a56b629203edc62c"
+      }, 
+      "data": {
+        "concepts": [
+          {
+            "app_id": "main", 
+            "id": "ai_HLmqFqBf", 
+            "value": 0.9987074, 
+            "name": "train"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_fvlBqXZR", 
+            "value": 0.9971303, 
+            "name": "railway"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_Xxjc3MhT", 
+            "value": 0.9954438, 
+            "name": "transportation system"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_RRXLczch", 
+            "value": 0.9914662, 
+            "name": "locomotive"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_6kTjGfF6", 
+            "value": 0.9910724, 
+            "name": "station"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_VRmbGVWh", 
+            "value": 0.98730266, 
+            "name": "travel"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_SHNDcmJ3", 
+            "value": 0.9797999, 
+            "name": "subway system"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_jlb9q33b", 
+            "value": 0.9676262, 
+            "name": "commuter"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_tr0MBp64", 
+            "value": 0.9670719, 
+            "name": "traffic"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_l4WckcJN", 
+            "value": 0.964049, 
+            "name": "blur"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_CpFBRWzD", 
+            "value": 0.95840275, 
+            "name": "urban"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_786Zr311", 
+            "value": 0.95792305, 
+            "name": "no person"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_2gkfMDsM", 
+            "value": 0.957827, 
+            "name": "platform"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_6lhccv44", 
+            "value": 0.95676255, 
+            "name": "business"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_971KsJkn", 
+            "value": 0.9446391, 
+            "name": "track"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_WBQfVV0p", 
+            "value": 0.9392204, 
+            "name": "city"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_dSCKh8xv", 
+            "value": 0.93650824, 
+            "name": "fast"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_TZ3C79C6", 
+            "value": 0.93066376, 
+            "name": "road"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_VSVscs9k", 
+            "value": 0.91909647, 
+            "name": "terminal"
+          }, 
+          {
+            "app_id": "main", 
+            "id": "ai_mcSHVRfS", 
+            "value": 0.9154444, 
+            "name": "public"
+          }
+        ]
+      }, 
+      "id": "e3d0a6b4d0304a52b9797467b7a9503e"
+    }
+  ]
+}
